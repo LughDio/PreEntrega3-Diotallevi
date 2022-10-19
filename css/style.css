@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&display=swap');
 @import 'animate.css';
 
+/* *{
+    box-sizing: border-box;
+} */
+
 .contenedor {
-    margin: 0;
-    padding: 0;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -32,8 +34,15 @@
 
 /* -------------------------------- HEADER -----------------------------*/
 
+nav .menu{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .navar header {
+    margin: 0;
+    padding: 0;
     width: 100%;
     background: #4E94AB;
 }
@@ -84,6 +93,7 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; 
 }
 
 
@@ -99,7 +109,6 @@
     background-attachment: fixed;
     font-family: 'Alegreya Sans', sans-serif;
     font-style: italic;
-    padding: 15px 0;
 }
 
 .hero div {
@@ -129,9 +138,9 @@
     color: rgb(159, 63, 14);
     background-color: rgba(0, 0, 0, 0.8);
     text-align: center;
-    margin-top: 5%;
-    margin-left: 30%;
-    margin-right: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
     border-radius: 20px;
 }
 
@@ -141,11 +150,12 @@
     font-style: italic;
     color: rgb(159, 63, 14);
     text-align: center;
-    margin-top: 5%;
     background-color: rgba(0, 0, 0, 0.8);
-    margin-left: 30%;
-    margin-right: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border-radius: 20px;
+    margin-top: 5%;
 }
 
 .tituloPileta {
@@ -164,8 +174,9 @@
     font-style: italic;
     color: rgb(159, 63, 14);
     background-color: rgba(0, 0, 0, 0.8);
-    margin-left: 25%;
-    margin-right: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
     text-align: center;
     border-radius: 20px;
 }
@@ -176,8 +187,9 @@
     font-style: italic;
     color: rgb(159, 63, 14);
     background-color: rgba(0, 0, 0, 0.8);
-    margin-left: 5%;
-    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
     text-align: center;
     border-radius: 20px;
 }
@@ -214,7 +226,7 @@
 
 /** --------------------------------- TARJETAS INDEX --------------------------*/
 
-.enlacesFlot {
+/* .enlacesFlot {
     display: flex;
     background-image: url(../img/pileta2.jpg);
     background-repeat: no-repeat;
@@ -224,7 +236,7 @@
     margin-bottom: 30%;
     margin-top: 5%;
     border-radius: 5%;
-}
+} */
 
 /** ------------------------------ FORM --------------------------------*/
 
@@ -272,8 +284,6 @@ textarea {
 
 
 .caja.galeria-caja {
-    width: 900px;
-    margin: auto;
     background: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
 }
@@ -286,9 +296,9 @@ textarea {
 }
 
 .galeria {
-    border-radius: 20px;
-    margin-bottom: 150px;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .galeria img {
@@ -349,13 +359,215 @@ textarea {
     }
 
     .main .grid {
-        margin: 0;
-        padding: 0;
         display: flex;
         flex-wrap: wrap;
     }
 }
 
-/* @media only screen and (min-width: 320px) and (min-width: 480px) and (min-width: 600px) and (min-width: 1024px) and (min-width: 1200px) and (min-width: 1440px){
+/** --------------------------------- RESPONSIVE --------------------------*/
 
+/* 320 */
+/* @media screen and (max-device-width: 640px) {
+    .tituloPSJ {
+        font-size: 25px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        background-color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
+    }
+
+    .stituloPSJ {
+        font-size: 20px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        text-align: center;
+        margin-top: 5%;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
+    }
+
+    .tituloPileta {
+        font-size: 20px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        text-align: center;
+    }
+
+    .subtituloPileta {
+        font-size: 35px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    .TextoLargo {
+        font-size: 20px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    .footer {
+        background: rgba(0, 0, 0, 0.4);
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
+    }
+    
+    .footer img {
+        background-color: none;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .navar header {
+        margin: 0;
+        padding: 0;
+        height: 50px;
+        width: 100%;
+        background: #4E94AB;
+    }
+
+} */
+
+/* @media (min-width: 426px) and (max-width: 768px){
+    .tituloPSJ {
+        font-size: 35px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        background-color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+    }
+
+    .stituloPSJ {
+        font-size: 35px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        text-align: center;
+        margin-top: 10%;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+    }
+
+    .tituloPileta {
+        font-size: 35px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        text-align: center;
+    }
+
+    .subtituloPileta {
+        font-size: 35px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .TextoLargo {
+        font-size: 35px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .tituloPSJ {
+        font-size: 55px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        background-color: rgba(0, 0, 0, 0.8);
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 10px;
+    }
+
+    .stituloPSJ {
+        font-size: 40px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        text-align: center;
+        margin-top: 10%;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-left: 15%;
+        margin-right: 15%;
+        border-radius: 15px;
+    }
+
+    .tituloPileta {
+        font-size: 45px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        text-align: center;
+    }
+
+    .subtituloPileta {
+        font-size: 45px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    .TextoLargo {
+        font-size: 45px;
+        font-family: 'Alegreya Sans', sans-serif;
+        font-style: italic;
+        color: rgb(159, 63, 14);
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
 } */
