@@ -99,7 +99,7 @@ header .menu ul {
 /* HERO  */
 
 .hero {
-    background-image: url("../img/pileta1.jpg");
+    background-image: url("../img/pileta2.jpg");
     width: 100%;
     height: auto;
     background-position: center;
@@ -138,6 +138,7 @@ header .menu ul {
     text-align: center;
     border-radius: 20px;
     display: inline-block;
+    text-shadow: 1px 1px 8px white;
 }
 
 .stituloPSJ {
@@ -146,6 +147,7 @@ header .menu ul {
     font-style: italic;
     color: rgb(19, 18, 18);
     text-align: center;
+    text-shadow: 1px 1px 5px white;
     background-color: rgba(0, 0, 0, 0.2);
     margin-top: 5%;
 }
@@ -337,6 +339,7 @@ textarea {
         width: 70%;
         margin-left: -70%;
         transition: all 0.3s;
+        z-index: 1;
     }
 
     .menu ul {
