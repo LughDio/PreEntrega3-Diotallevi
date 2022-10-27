@@ -12,74 +12,49 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body class="hero">
-    <div class="contenedor">
-        <div class="navar">
-            <header>
-                <input type="checkbox" id="btn-menu">
-                <label for="btn-menu"><img src="./img/icono-menu.png" alt=""></label>
-                <nav class="menu">
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="../pages/acercade.html">Acerca de</a></li>
-                        <li><a href="../pages/nuestrostrabajos.html">Nuestros Trabajos</a></li>
-                        <li><a href="../pages/serviciospost.html">Servicios Post Obra</a></li>
-                        <li><a href="../pages/contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
-        <div class="main">
-            <main>
-                <h2 class="tituloPileta">Nuestros Trabajos</h2>
-
-                <!-- ESTA SECTION COMENTADA ES COMO EN VERDAD ME GUSTARÍA QUE QUEDE
-            EL MAIN DE "NUESTROS TRABAJOS" PERO DE UN DÍA PARA EL OTRO
-            AL TRATAR DE INSERTAR ÉSTAS PUBLICACIONES QUEDAN EN BLANCO
-            (QUE POR CIERTO FUNCIONA, SÓLO QUE ESTÁN FALLANDO EN FACEBOOK)-->
-
-                <!-- <section>
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpiletasdenatacion%2Fposts%2Fpfbid0MzAevjxbJtaMvVdT7kCgPqoGDHJ9FeYvv3cKZtvJUDH3y3KTsa6yiWHi3rMTbGyil&show_text=true&width=500" width="500" height="646" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">Piscina 6 x 4 - San José, Entre Ríos</iframe>
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpiletasdenatacion%2Fposts%2Fpfbid0hcnt3kprVLMKRarNjm2NGkv8K8Ft639ZbYFcdorLra8JkoxgueaZor8B6izaxqril&show_text=true&width=500" width="500" height="645" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">Piscina 8 x 4 - Vicente López, Buenos Aires</iframe>
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpiletasdenatacion%2Fposts%2Fpfbid0qtLHwfsExhWt3qWYVGSC7aUWPcLm5ZFZsmgBj7vF8gbmPhW7TRWRuhftn9nKKUSVl&show_text=true&width=500" width="500" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">Piscina 7 x 4 - La Clarita, Entre Ríos</iframe>
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpiletasdenatacion%2Fposts%2Fpfbid02CMZEQsbDGGNBYH3x2kDbSMvSJAHoXMz6uBSD3b9tCCR1nSjudofKYUtjuLd4zoiol&show_text=true&width=500" width="500" height="616" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">Piscina 8 x 4 - El Remanos, Buenos Aires</iframe>
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpiletasdenatacion%2Fposts%2Fpfbid0NZ3F9k8kkCuN8tP9i1gbZPpEdEoFoXaaFqJxK6RNXEQgFoEoi3TTQtjd4yD7U1B3l&show_text=true&width=500" width="500" height="665" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">Piscina 7 x 3 - Colón, Entre Ríos</iframe>
-        </section> -->
-                <h1>Galería de trabajos hechos</h1>
-                <div class="caja galeria-caja">
-                    <div class="galeria">
-                        <div class="munizBuenosAires">
-                            <h2>Piscina de 6x3 construida en Muñiz, Buenos Aires</h2>
-                            <img src="../img/piscina_6x3_munizBuenosAires.jpg" alt="Piscina Muñiz">
-                        </div>
-                        <div class="sanJoseEntreRios">
-                            <h2>Piscina de 6x4 construida en San José, Entre Ríos</h2>
-                            <img src="../img/piscina_6x4_sanJoseEntreRios.jpg" alt="Piscina San José">
-                        </div>
-                        <div class="colonEntreRios">
-                            <h2>Piscina de 7x3 construida en Colón, Entre Ríos</h2>
-                            <img src="../img/piscina_7x3_colonEntreRios.jpg" alt="Piscina Colón">
-                        </div>
-                        <div class="laClaritaEntreRios">
-                            <h2>Piscina de 7x4 construida en La Clarita, Entre Ríos</h2>
-                            <img src="../img/piscina_7x4_laClaritaEntreRios.jpg" alt="Piscina La Clarita">
-                        </div>
-                    </div>
+<body>
+    <header class="navar">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="../img/icono-menu.png" alt=""></label>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/acercade.html">Acerca de</a></li>
+                <li><a href="../pages/nuestrostrabajos.html">Nuestros Trabajos</a></li>
+                <li><a href="../pages/serviciospost.html">Servicios Post Obra</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main hero">
+        <h2 class="tituloPileta">Nuestros Trabajos</h2>
+        <h1>Galería de trabajos hechos</h1>
+        <div class="caja galeria-caja">
+            <div class="galeria">
+                <div class="munizBuenosAires">
+                    <h2>Piscina de 6x3 construida en Muñiz, Buenos Aires</h2>
+                    <img src="../img/piscina_6x3_munizBuenosAires.jpg" alt="Piscina Muñiz">
                 </div>
-            </main>
+                <div class="sanJoseEntreRios">
+                    <h2>Piscina de 6x4 construida en San José, Entre Ríos</h2>
+                    <img src="../img/piscina_6x4_sanJoseEntreRios.jpg" alt="Piscina San José">
+                </div>
+                <div class="colonEntreRios">
+                    <h2>Piscina de 7x3 construida en Colón, Entre Ríos</h2>
+                    <img src="../img/piscina_7x3_colonEntreRios.jpg" alt="Piscina Colón">
+                </div>
+                <div class="laClaritaEntreRios">
+                    <h2>Piscina de 7x4 construida en La Clarita, Entre Ríos</h2>
+                    <img src="../img/piscina_7x4_laClaritaEntreRios.jpg" alt="Piscina La Clarita">
+                </div>
+            </div>
         </div>
-        <div class="footer">
-            <footer class="pieDePagina">
-                <a href="https://www.facebook.com/piletasdenatacion"><img src="../img/fb.png"
-                        alt="Logo de facebook"></a>
-                <a href="https://www.instagram.com/piletassanjoseok/"><img src="../img/ig.png"
-                        alt="Logo de instagram"></a>
-                <a
-                    href="https://wa.me/541126501662?text=%C2%A1Gracias%20por%20comunicarte%20con%20Piscinas%20San%20Jos%C3%A9!%20Dejanos%20tu%20consulta%20y%20en%20breve%20te%20responderemos"><img
-                        src="../img/wsp.png" alt="Logo de whatsapp"></a>
-            </footer>
-        </div>
-    </div>
+    </main>
+    <footer class="footer">
+        <a href="https://www.facebook.com/piletasdenatacion"><img src="../img/fb.png" alt="Logo de facebook"></a>
+        <a href="https://www.instagram.com/piletassanjoseok/"><img src="../img/ig.png" alt="Logo de instagram"></a>
+        <a href="https://wa.me/541126501662?text=%C2%A1Gracias%20por%20comunicarte%20con%20Piscinas%20San%20Jos%C3%A9!%20Dejanos%20tu%20consulta%20y%20en%20breve%20te%20responderemos"><img src="../img/wsp.png" alt="Logo de whatsapp"></a>
+    </footer>
 </body>
 
 </html>
