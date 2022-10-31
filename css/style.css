@@ -260,7 +260,27 @@ textarea {
 
 /** --------------------------------- NUESTROS TRABAJOS --------------------------*/
 
-/* agregar video */
+#cliente1{
+    position: relative;
+}
+
+#cliente1 video{
+    width: 100%;
+    height: auto;
+}
+
+#cliente1 p{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;    
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}
 
 /* GALERÍA */
 
@@ -409,6 +429,5 @@ textarea {
         margin: 0;
         padding: 0;
     }
-
 
 }
