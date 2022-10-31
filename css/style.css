@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,500&display=swap');
-@import 'animate.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
     margin: 0;
     box-sizing: border-box;
     display: grid;
-    justify-content: center;
-    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 54px 1fr 120px;
     gap: 0px 0px;
@@ -92,21 +89,21 @@ header .menu ul {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 
 /* HERO  */
 
 .hero {
-    background-image: url("../img/pileta2.jpg");
+    background-image: url("../img/pileta1.jpg");
     width: 100%;
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
 
@@ -120,7 +117,7 @@ header .menu ul {
     color: rgb(70, 118, 206);
     margin: 3px;
     font-size: 20px;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
 
@@ -132,8 +129,9 @@ header .menu ul {
 
 .tituloPSJ {
     font-size: 85px;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;    
+    font-weight: bold;
     color: rgb(19, 18, 18);
     text-align: center;
     border-radius: 20px;
@@ -143,58 +141,56 @@ header .menu ul {
 
 .stituloPSJ {
     font-size: 40px;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
+    font-weight: bold;
     color: rgb(19, 18, 18);
     text-align: center;
     text-shadow: 1px 1px 5px white;
-    background-color: rgba(0, 0, 0, 0.2);
     margin-top: 5%;
 }
 
 .tituloPileta {
-    font-size: 30px;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
+    font-weight: bold;
     color: rgb(19, 18, 18);
     text-align: center;
+    text-shadow: 1px 1px 5px white;
+    margin-top: 5%;
 }
 
 /** --------------------------------- TEXTOS VARIOS --------------------------*/
 
 .subtituloPileta {
-    font-size: 35px;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 45px;
+    text-shadow: 1px 1px 5px white;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
+    font-weight: bold;
     color: rgb(19, 18, 18);
-    background-color: rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     text-align: center;
     border-radius: 20px;
 }
 
 .TextoLargo {
-    font-size: 70px;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 35px;
+    text-shadow: 1px 1px 5px white;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     color: rgb(19, 18, 18);
-    background-color: rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     text-align: center;
     border-radius: 20px;
+    margin: 15%;
 }
 
 /** --------------------------------- SERVICIOS POST OBRA --------------------------*/
 
 
-
 .limpiezaPiscinas {
     font-size: 25px;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     color: rgb(19, 18, 18);
     background-image: url(../img/limpiezaPiscinas1.jpg);
@@ -234,7 +230,7 @@ form {
 
 input,
 textarea {
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     width: 100%;
     margin-bottom: 20px;
@@ -264,31 +260,36 @@ textarea {
 
 /** --------------------------------- NUESTROS TRABAJOS --------------------------*/
 
+/* agregar video */
 
-.caja.galeria-caja {
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
+/* GALERÍA */
+
+#galeria .col-lg-4 .col-md-6 .col-sm-12{
+    padding: 25px;
+    margin: 0 !important;
 }
 
-.galeria-caja h1 {
-    color: rgb(19, 18, 18);
-    margin-top: 50px;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-style: italic;
+#galeria img{
+    width: 100%;
+
 }
 
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+#galeria img:hover{
+    border: 5px solid #f7f7f7;
 }
 
-.galeria img {
-    border-radius: 20px;
-    width: 850px;
-    height: 850px;
-    margin-top: 5px;
-    margin-bottom: 60px;
+.col-lg-4 .col-md-6 .col-sm-12{
+    position: relative;
+}
+
+.row div p{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;    
+    font-weight: bold;
 }
 
 
@@ -310,6 +311,8 @@ textarea {
 
 /** --------------------------------- MEDIA --------------------------*/
 
+/* BODY */
+
 @media (max-width:768px) {
 
     body {
@@ -318,15 +321,16 @@ textarea {
         display: grid;
         justify-content: center;
         align-items: center;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 60px 1fr 60px;
         gap: 0px 0px;
         grid-template-areas:
-            "navar navar navar"
-            "main main main"
-            "main main main"
-            "footer footer footer";
+            "navar navar"
+            "main main"
+            "footer footer";
     }
+
+    /* NAV */
 
     header label {
         display: block;
@@ -353,6 +357,58 @@ textarea {
     #btn-menu:checked~.menu {
         margin: 0;
     }
-}
 
-/** --------------------------------- RESPONSIVE --------------------------*/
+    /* ACERCA DE */
+
+    .videoPiscinaDron iframe {
+        width: 100%;
+        height: 315;
+    }
+
+    .subtituloPileta {
+        list-style-type: none;
+        margin: 4px;
+        width: auto;
+        height: auto;
+        text-shadow: 1px 1px 5px white;
+        border-radius: 5%;
+    }
+
+    .TextoLargo {
+        font-size: 20px;
+        list-style-type: none;
+        margin: 5%;
+        width: auto;
+        height: auto;
+        text-shadow: 1px 1px 5px white;
+        border-radius: 5%;
+    }
+
+    /* SERVICIOS POST OBRA */
+
+    .limpiezaPiscinas ul {
+        list-style-type: none;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin: 4px;
+        width: auto;
+        height: auto;
+        text-shadow: 1px 1px 5px white;
+        border-radius: 5%;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        background: rgb(78, 148, 171);
+        background: linear-gradient(58deg, rgba(78, 148, 171, 1) 17%, rgba(215, 255, 241, 1) 34%, rgba(45, 175, 206, 1) 54%, rgba(170, 252, 184, 1) 78%, rgba(140, 215, 144, 1) 94%);
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer img {
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
