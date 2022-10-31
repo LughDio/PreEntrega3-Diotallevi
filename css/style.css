@@ -29,19 +29,17 @@ body {
 
 /* -------------------------------- HEADER -----------------------------*/
 
-nav .menu {
-    box-sizing: border-box;
-}
-
-header .nav {
-    height: 60px;
-}
-
 header {
     width: 100%;
     background: rgb(78, 148, 171);
     background: linear-gradient(58deg, rgba(78, 148, 171, 1) 17%, rgba(215, 255, 241, 1) 34%, rgba(45, 175, 206, 1) 54%, rgba(170, 252, 184, 1) 78%, rgba(140, 215, 144, 1) 94%);
 }
+
+header nav {
+    box-sizing: border-box;
+    height: 60px;
+}
+
 
 #btn-menu {
     display: none;
@@ -56,27 +54,27 @@ header label {
 
 header label:hover {
     cursor: pointer;
-    background: rgba(0, 0, 0, 0.3)
+    background: rgba(0, 0, 0, 0.3);
 }
 
-header .menu ul {
+header nav ul {
     margin: 0;
     list-style: none;
     padding: 0;
     display: flex;
 }
 
-.menu li {
+header nav li {
     border-right: 1px solid #fff;
     text-align: center;
     flex-grow: 1;
 }
 
-.menu li:hover {
+header nav li:hover {
     background: rgba(0, 0, 0, 0.3);
 }
 
-.menu li a {
+header nav li a {
     display: block;
     padding: 15px 20px;
     color: rgb(19, 18, 18);
@@ -114,7 +112,7 @@ header .menu ul {
 
 .hero div a {
     text-decoration: none;
-    color: rgb(70, 118, 206);
+    color: rgb(78, 148, 171);
     margin: 3px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -136,7 +134,7 @@ header .menu ul {
     text-align: center;
     border-radius: 20px;
     display: inline-block;
-    text-shadow: 1px 1px 8px white;
+    text-shadow: 1px 1px 8px #fff;
 }
 
 .stituloPSJ {
@@ -146,7 +144,7 @@ header .menu ul {
     font-weight: bold;
     color: rgb(19, 18, 18);
     text-align: center;
-    text-shadow: 1px 1px 5px white;
+    text-shadow: 1px 1px 5px #fff;
     margin-top: 5%;
 }
 
@@ -157,7 +155,7 @@ header .menu ul {
     font-weight: bold;
     color: rgb(19, 18, 18);
     text-align: center;
-    text-shadow: 1px 1px 5px white;
+    text-shadow: 1px 1px 5px #fff;
     margin-top: 5%;
 }
 
@@ -165,7 +163,7 @@ header .menu ul {
 
 .subtituloPileta {
     font-size: 45px;
-    text-shadow: 1px 1px 5px white;
+    text-shadow: 1px 1px 5px #fff;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -176,7 +174,7 @@ header .menu ul {
 
 .TextoLargo {
     font-size: 35px;
-    text-shadow: 1px 1px 5px white;
+    text-shadow: 1px 1px 5px #fff;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     color: rgb(19, 18, 18);
@@ -205,7 +203,7 @@ header .menu ul {
 
 .limpiezaPiscinas ul {
     list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     margin-bottom: 30%;
     margin-left: 35%;
     margin-right: 35%;
@@ -220,7 +218,7 @@ header .menu ul {
 form {
     width: 450px;
     margin: auto;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.6);
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
@@ -272,40 +270,35 @@ textarea {
 #cliente1 p{
     position: absolute;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     font-family: 'Roboto', sans-serif;
     font-style: italic;    
     font-weight: bold;
     text-align: center;
-    color: white;
+    color: #fff;
     
 }
 
 /* GALERÍA */
 
-#galeria .col-lg-4 .col-md-6 .col-sm-12{
+#galeria {
     padding: 25px;
     margin: 0 !important;
 }
 
 #galeria img{
     width: 100%;
-
 }
 
 #galeria img:hover{
-    border: 5px solid #f7f7f7;
-}
-
-.col-lg-4 .col-md-6 .col-sm-12{
-    position: relative;
+    border: 5px solid #fff;
 }
 
 .row div p{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
     padding: 10px 0 10px 0;
     font-family: 'Roboto', sans-serif;
     font-style: italic;    
@@ -315,14 +308,14 @@ textarea {
 
 /** --------------------------------- FOOTER --------------------------*/
 
-.footer {
+footer {
     background: rgb(78, 148, 171);
     background: linear-gradient(58deg, rgba(78, 148, 171, 1) 17%, rgba(215, 255, 241, 1) 34%, rgba(45, 175, 206, 1) 54%, rgba(170, 252, 184, 1) 78%, rgba(140, 215, 144, 1) 94%);
     text-align: center;
     width: 100%;
 }
 
-.footer img {
+footer img {
     background-color: none;
     border-radius: 20px;
     margin-left: 20px;
@@ -356,7 +349,7 @@ textarea {
         display: block;
     }
 
-    .menu {
+    header nav {
         position: absolute;
         background: rgb(78, 148, 171);
         background: linear-gradient(58deg, rgba(78, 148, 171, 1) 17%, rgba(215, 255, 241, 1) 34%, rgba(45, 175, 206, 1) 54%, rgba(170, 252, 184, 1) 78%, rgba(140, 215, 144, 1) 94%);
@@ -366,15 +359,15 @@ textarea {
         z-index: 1;
     }
 
-    .menu ul {
+    header nav ul {
         flex-direction: column;
     }
 
-    .menu li {
+    header nav li {
         border-top: 1px solid #fff;
     }
 
-    #btn-menu:checked~.menu {
+    #btn-menu:checked~nav{
         margin: 0;
     }
 
@@ -396,7 +389,7 @@ textarea {
         margin: 4px;
         width: auto;
         height: auto;
-        text-shadow: 1px 1px 5px white;
+        text-shadow: 1px 1px 5px #fff;
         border-radius: 5%;
     }
 
@@ -406,7 +399,7 @@ textarea {
         margin: 5%;
         width: auto;
         height: auto;
-        text-shadow: 1px 1px 5px white;
+        text-shadow: 1px 1px 5px #fff;
         border-radius: 5%;
     }
 
@@ -414,11 +407,11 @@ textarea {
 
     .limpiezaPiscinas ul {
         list-style-type: none;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.6);
         margin: 4px;
         width: auto;
         height: auto;
-        text-shadow: 1px 1px 5px white;
+        text-shadow: 1px 1px 5px #fff;
         border-radius: 5%;
     }
 
@@ -427,7 +420,7 @@ textarea {
     form {
         width: auto;
         margin: auto;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(0, 0, 0, 0.6);
         padding: 10px 20px;
         box-sizing: border-box;
         margin-top: 20px;

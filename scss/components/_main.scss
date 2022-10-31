@@ -1,0 +1,122 @@
+@import "../base/variables";
+/*---- MAIN ----*/
+
+/* HERO */
+
+.hero {
+    background-image: url("../img/pileta1.jpg");
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    div {
+        color: $color-oscuro;
+        text-align: center;
+        a {
+            text-decoration: none;
+            color: $color-celeste;
+            margin: 3px;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-style: italic;
+        }
+        h2 {
+            text-align: center;
+        }
+    }
+}
+
+/* INDEX */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* TRABAJOS HECHOS */
+
+#cliente1{
+    position: relative;
+    video{
+        width: 100%;
+        height: auto;
+    }
+    p{
+        position: absolute;
+        bottom: 0;
+        background-color: $color-oscuro;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;    
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        
+    }
+}
+
+/* GALERIA */
+
+#galeria {
+    padding: 25px;
+    margin: 0 !important;
+    img{
+        width: 100%;
+        &:hover{
+            border: 5px solid white;
+        }
+    }
+    .row{
+        div{
+            p{
+            position: absolute;
+            background-color: $sombra;
+            color: white;
+            padding: 10px 0 10px 0;
+            font-family: 'Roboto', sans-serif;
+            font-style: italic;    
+            font-weight: bold;
+        }
+        }
+    }
+}
+
+/* FORM */
+
+form {
+    width: 450px;
+    margin: auto;
+    background: $sombra;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    input,textarea {
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 20px;
+        border: none;
+    }
+    textarea {
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+    }
+    #boton {
+        background: $color-celeste;
+        background: $gradiente;
+        color: $color-oscuro;
+        padding: 20px;
+        font-weight: bold;
+    }
+}
