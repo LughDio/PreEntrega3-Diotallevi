@@ -329,7 +329,7 @@ textarea {
     margin-right: 20px;
 }
 
-/** --------------------------------- MEDIA --------------------------*/
+/** -------------------------------------------------------- MEDIA -------------------------------------------------*/
 
 /* BODY */
 
@@ -378,6 +378,12 @@ textarea {
         margin: 0;
     }
 
+    /* MAIN*/
+
+    .hero div img{
+        width: 100%;
+    }
+
     /* ACERCA DE */
 
     .videoPiscinaDron iframe {
@@ -414,6 +420,19 @@ textarea {
         height: auto;
         text-shadow: 1px 1px 5px white;
         border-radius: 5%;
+    }
+
+    /* CONTACTO */
+
+    form {
+        width: auto;
+        margin: auto;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
     }
 
     /* FOOTER */
