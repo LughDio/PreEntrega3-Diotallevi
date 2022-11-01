@@ -104,31 +104,31 @@ main {
     margin-right: 35%;
     border-radius: 5%; }
 
-/* HEADER */
+.menu {
+  box-sizing: border-box;
+  height: 60px; }
+  .menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex; }
+  .menu li {
+    border-right: 1px solid #fff;
+    text-align: center;
+    flex-grow: 1; }
+    .menu li:hover {
+      background: rgba(0, 0, 0, 0.3); }
+    .menu li a {
+      display: block;
+      padding: 15px 20px;
+      color: #131212;
+      text-decoration: none;
+      font-weight: bold; }
+
 header {
   width: 100%;
   background: #4e94ab;
   background: linear-gradient(58deg, #4e94ab 17%, #d7fff1 34%, #2dafce 54%, #aafcb8 78%, #8cd790 94%); }
-  header nav {
-    box-sizing: border-box;
-    height: 60px; }
-    header nav ul {
-      margin: 0;
-      list-style: none;
-      padding: 0;
-      display: flex; }
-    header nav li {
-      border-right: 1px solid #fff;
-      text-align: center;
-      flex-grow: 1; }
-      header nav li:hover {
-        background: #131212; }
-      header nav li a {
-        display: block;
-        padding: 15px 20px;
-        color: #131212;
-        text-decoration: none;
-        font-weight: bold; }
   header label {
     display: none;
     width: 60px;
@@ -136,7 +136,7 @@ header {
     border-right: 1px solid #fff; }
     header label:hover {
       cursor: pointer;
-      background: rgba(0, 0, 0, 0.6); }
+      background: rgba(0, 0, 0, 0.3); }
 
 #btn-menu {
   display: none; }
@@ -168,7 +168,7 @@ footer {
     grid-template-areas: "navar navar" "main main" "footer footer"; }
   header label {
     display: block; }
-  header nav {
+  .menu {
     position: absolute;
     background: #4e94ab;
     background: linear-gradient(58deg, #4e94ab 17%, #d7fff1 34%, #2dafce 54%, #aafcb8 78%, #8cd790 94%);
@@ -176,11 +176,11 @@ footer {
     margin-left: -70%;
     transition: all 0.3s;
     z-index: 1; }
-    header nav ul {
+    .menu ul {
       flex-direction: column; }
-    header nav li {
+    .menu li {
       border-top: 1px solid #fff; }
-  #btn-menu:checked ~ nav {
+  #btn-menu:checked ~ .menu {
     margin: 0; }
   .hero .indexText .logo {
     width: 100%; }
@@ -204,7 +204,7 @@ footer {
     border-radius: 5%; }
   .limpiezaPiscinas ul {
     list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: sombra;
     margin: 4px;
     width: auto;
     height: auto;
@@ -213,7 +213,7 @@ footer {
   form {
     width: auto;
     margin: auto;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.3);
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;

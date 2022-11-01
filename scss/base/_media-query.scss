@@ -16,32 +16,28 @@
     }
 
     header {
-        label {
-            display: block;
-        }
-
-        nav {
-            position: absolute;
-            background: rgb(78, 148, 171);
-            background: linear-gradient(58deg, rgba(78, 148, 171, 1) 17%, rgba(215, 255, 241, 1) 34%, rgba(45, 175, 206, 1) 54%, rgba(170, 252, 184, 1) 78%, rgba(140, 215, 144, 1) 94%);
-            width: 70%;
-            margin-left: -70%;
-            transition: all 0.3s;
-            z-index: 1;
-
-            ul {
-                flex-direction: column;
-            }
-
-            li {
-                border-top: 1px solid #fff;
-            }
-        }
-    }
-
-    #btn-menu {
-        &:checked~nav {
-            margin: 0;
+		label {
+			display: block;
+		}
+	}
+	.menu {
+		position: absolute;
+		background: $color-celeste;
+		background: $gradiente;
+		width: 70%;
+		margin-left: -70%;
+		transition: all 0.3s;
+		z-index: 1;
+		ul {
+			flex-direction: column;
+		}
+		li {
+			border-top: 1px solid #fff;
+		}
+	}
+	#btn-menu {
+		&:checked~.menu {
+			margin: 0;
         }
     }
 
@@ -82,7 +78,7 @@
     .limpiezaPiscinas {
         ul {
             list-style-type: none;
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: sombra;
             margin: 4px;
             width: auto;
             height: auto;
@@ -94,7 +90,7 @@
     form {
         width: auto;
         margin: auto;
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.3);
         padding: 10px 20px;
         box-sizing: border-box;
         margin-top: 20px;
@@ -103,8 +99,8 @@
     }
 
     .footer {
-        background: rgb(78, 148, 171);
-        background: linear-gradient(58deg, rgba(78, 148, 171, 1) 17%, rgba(215, 255, 241, 1) 34%, rgba(45, 175, 206, 1) 54%, rgba(170, 252, 184, 1) 78%, rgba(140, 215, 144, 1) 94%);
+        background: $color-celeste;
+        background: $gradiente;
         text-align: center;
         width: 100%;
 
