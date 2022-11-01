@@ -3,7 +3,6 @@
 /* BODY */
 
 @media (max-width:768px) {
-
     body {
         margin: 0;
         box-sizing: border-box;
@@ -13,51 +12,52 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 60px 1fr 60px;
         gap: 0px 0px;
-        grid-template-areas:
-            "navar navar"
-            "main main"
-            "footer footer";
+        grid-template-areas: "navar navar" "main main" "footer footer";
     }
 
-    /* NAV */
+    header {
+        label {
+            display: block;
+        }
 
-    header label {
-        display: block;
+        nav {
+            position: absolute;
+            background: rgb(78, 148, 171);
+            background: linear-gradient(58deg, rgba(78, 148, 171, 1) 17%, rgba(215, 255, 241, 1) 34%, rgba(45, 175, 206, 1) 54%, rgba(170, 252, 184, 1) 78%, rgba(140, 215, 144, 1) 94%);
+            width: 70%;
+            margin-left: -70%;
+            transition: all 0.3s;
+            z-index: 1;
+
+            ul {
+                flex-direction: column;
+            }
+
+            li {
+                border-top: 1px solid #fff;
+            }
+        }
     }
 
-    header nav {
-        position: absolute;
-        background: rgb(78, 148, 171);
-        background: linear-gradient(58deg, rgba(78, 148, 171, 1) 17%, rgba(215, 255, 241, 1) 34%, rgba(45, 175, 206, 1) 54%, rgba(170, 252, 184, 1) 78%, rgba(140, 215, 144, 1) 94%);
-        width: 70%;
-        margin-left: -70%;
-        transition: all 0.3s;
-        z-index: 1;
+    #btn-menu {
+        &:checked~nav {
+            margin: 0;
+        }
     }
 
-    header nav ul {
-        flex-direction: column;
+    .hero {
+        .indexText {
+            .logo {
+                width: 100%;
+            }
+        }
     }
 
-    header nav li {
-        border-top: 1px solid #fff;
-    }
-
-    #btn-menu:checked~header nav{
-        margin: 0;
-    }
-
-    /* MAIN*/
-
-    .hero div img{
-        width: 100%;
-    }
-
-    /* ACERCA DE */
-
-    .videoPiscinaDron iframe {
-        width: 100%;
-        height: 315;
+    .videoPiscinaDron {
+        iframe {
+            width: 100%;
+            height: 315;
+        }
     }
 
     .subtituloPileta {
@@ -65,7 +65,7 @@
         margin: 4px;
         width: auto;
         height: auto;
-        text-shadow: 1px 1px 5px white;
+        text-shadow: 1px 1px 5px #fff;
         border-radius: 5%;
     }
 
@@ -75,28 +75,26 @@
         margin: 5%;
         width: auto;
         height: auto;
-        text-shadow: 1px 1px 5px white;
+        text-shadow: 1px 1px 5px #fff;
         border-radius: 5%;
     }
 
-    /* SERVICIOS POST OBRA */
-
-    .limpiezaPiscinas ul {
-        list-style-type: none;
-        background-color: rgba(0, 0, 0, 0.4);
-        margin: 4px;
-        width: auto;
-        height: auto;
-        text-shadow: 1px 1px 5px white;
-        border-radius: 5%;
+    .limpiezaPiscinas {
+        ul {
+            list-style-type: none;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 4px;
+            width: auto;
+            height: auto;
+            text-shadow: 1px 1px 5px #fff;
+            border-radius: 5%;
+        }
     }
-
-    /* CONTACTO */
 
     form {
         width: auto;
         margin: auto;
-        background: rgba(0, 0, 0, 0.8);
+        background: rgba(0, 0, 0, 0.6);
         padding: 10px 20px;
         box-sizing: border-box;
         margin-top: 20px;
@@ -104,18 +102,15 @@
         border-radius: 20px;
     }
 
-    /* FOOTER */
-
     .footer {
         background: rgb(78, 148, 171);
         background: linear-gradient(58deg, rgba(78, 148, 171, 1) 17%, rgba(215, 255, 241, 1) 34%, rgba(45, 175, 206, 1) 54%, rgba(170, 252, 184, 1) 78%, rgba(140, 215, 144, 1) 94%);
         text-align: center;
         width: 100%;
-    }
 
-    .footer img {
-        margin: 0;
-        padding: 0;
+        img {
+            margin: 0;
+            padding: 0;
+        }
     }
-
 }

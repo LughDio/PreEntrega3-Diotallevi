@@ -5,41 +5,51 @@ header {
     width: 100%;
     background: $color-celeste;
     background: $gradiente;
-    #btn-menu {
-        display: none;
-    }
-    label {
-        display: none;
-        width: 60px;
+    nav {
+		box-sizing: border-box;
         height: 60px;
-        border-right: 1px solid #fff;
-        &:hover {
-            cursor: pointer;
-            background: rgba(0, 0, 0, 0.3)
-        }
-    }
-    nav{
-        height: 60px;
+
         ul {
             margin: 0;
             list-style: none;
             padding: 0;
             display: flex;
-            li {
-                border-right: 1px solid #fff;
-                text-align: center;
-                flex-grow: 1;
-                &:hover {
-                    background: $color-oscuro;
-                }
-                a {
-                    display: block;
-                    padding: 15px 20px;
-                    color: $color-oscuro;
-                    text-decoration: none;
-                    font-weight: bold;
-                }
+        }
+
+        li {
+            border-right: 1px solid #fff;
+            text-align: center;
+            flex-grow: 1;
+
+            &:hover {
+                background: $color-oscuro;
+            }
+
+            a {
+                display: block;
+                padding: 15px 20px;
+                color: $color-oscuro;
+                text-decoration: none;
+                font-weight: bold;
             }
         }
     }
+
+    
+
+    label {
+        display: none;
+        width: 60px;
+        height: 60px;
+        border-right: 1px solid #fff;
+
+        &:hover {
+            cursor: pointer;
+            background: $sombra;
+        }
+    }
+}
+
+#btn-menu {
+    display: none;
 }
