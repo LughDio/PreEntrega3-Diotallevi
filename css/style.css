@@ -96,9 +96,6 @@ header label:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    text-align: center;
 }
 
 .hero .indexText {
@@ -120,27 +117,6 @@ header label:hover {
     text-shadow: 1px 1px 8px #fff;
 }
 
-.stituloPSJ {
-    font-size: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    color: rgb(19, 18, 18);
-    text-align: center;
-    text-shadow: 1px 1px 5px #fff;
-    margin-top: 5%;
-}
-
-.tituloPileta {
-    font-size: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    color: rgb(19, 18, 18);
-    text-align: center;
-    text-shadow: 1px 1px 5px #fff;
-    margin-top: 5%;
-}
 
 /** --------------------------------- TEXTOS VARIOS --------------------------*/
 

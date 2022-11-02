@@ -4,3 +4,18 @@ $color-celeste: rgb(78, 148, 171);
 $color-oscuro: rgb(19, 18, 18);
 $gradiente: linear-gradient(58deg, rgba(78, 148, 171, 1) 17%, rgba(215, 255, 241, 1) 34%, rgba(45, 175, 206, 1) 54%, rgba(170, 252, 184, 1) 78%, rgba(140, 215, 144, 1) 94%);
 $sombra: rgba(0, 0, 0, 0.6);
+
+@mixin título {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: $color-oscuro;
+    text-shadow: 1px 1px 5px #fff;
+    margin-top: 5%;
+}
+
+h2, h3{
+    @include título;
+}
