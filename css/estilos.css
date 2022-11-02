@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 h2, h3 {
   font-family: 'Roboto', sans-serif;
@@ -155,22 +156,73 @@ h2, h3 {
     color: white; }
 
 /* GALERIA */
-#galeria {
-  padding: 25px;
-  margin: 0 !important; }
-  #galeria img {
-    width: 100%; }
-    #galeria img:hover {
-      border: 5px solid #f7f7f7; }
+/* Estilos de la galería */
+.galeriaTrabajos {
+  width: 95%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .galeriaTrabajos li {
+    margin: 5px; }
+  .galeriaTrabajos img {
+    width: 450px;
+    height: 400px; }
 
-.row div p {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  padding: 10px 0 10px 0;
-  font-family: 'Roboto', sans-serif;
-  font-style: italic;
-  font-weight: bold; }
+/* Estilos del modal */
+.modal {
+  display: none; }
+  .modal:target {
+    display: block;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .modal h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0; }
+
+.fotoPiscina {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .fotoPiscina a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px; }
+    .fotoPiscina a:nth-child(2) {
+      margin: 0;
+      height: 100%;
+      flex-shrink: 2; }
+  .fotoPiscina img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box; }
+
+.cerrar {
+  display: block;
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  margin: 15px auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  border-radius: 50%;
+  line-height: 25px; }
 
 /* FORM */
 form {

@@ -241,28 +241,96 @@ textarea {
 
 /* GALERÍA */
 
-#galeria {
-    padding: 25px;
-    margin: 0 !important;
+/* Estilos de la galería */
+
+.galeriaTrabajos{
+    width: 95%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-#galeria img{
-    width: 100%;
+.galeriaTrabajos li{
+    margin: 5px;
+}
+.galeriaTrabajos img{
+    width: 450px;
+    height: 400px;
 }
 
-#galeria img:hover{
-    border: 5px solid #fff;
+/* Estilos del modal */
+
+.modal{
+    display: none;
 }
 
-.row div p{
-    position: absolute;
+.modal:target{
+    display: block;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.6);
-    color: #fff;
-    padding: 10px 0 10px 0;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;    
-    font-weight: bold;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
+
+.modal h3{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.fotoPiscina{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoPiscina a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.fotoPiscina a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.fotoPiscina img{
+    width: 650px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.cerrar{
+    display: block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    border-radius: 50%;
+    line-height: 25px;
+}
+
+
 
 
 /** --------------------------------- FOOTER --------------------------*/
