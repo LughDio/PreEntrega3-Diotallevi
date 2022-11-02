@@ -158,7 +158,7 @@ h2, h3 {
 /* GALERIA */
 /* Estilos de la galería */
 .galeriaTrabajos {
-  width: 95%;
+  width: 100vw;
   margin: auto;
   list-style: none;
   padding: 20px;
@@ -169,7 +169,7 @@ h2, h3 {
   .galeriaTrabajos li {
     margin: 5px; }
   .galeriaTrabajos img {
-    width: 450px;
+    width: 100%;
     height: 400px; }
 
 /* Estilos del modal */
