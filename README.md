@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Luciano</h1>
 <h3 align="center">👨🏼‍💻 Frontend developer from Argentina</h3>
 
-- 🔭 I’m currently working on [PSJ](https://lughdio.github.io/PreEntrega2-Diotallevi/)
+- 🔭 I’m currently working on [PSJ](https://lughdio.github.io/PreEntrega3-Diotallevi/)
 
 - 🌱 I’m currently learning **Full Stack Development**
 
