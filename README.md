@@ -1,30 +1,51 @@
-<!-- Minimal, futurista y profesional • Dark-mode friendly -->
+<!-- Futurista, moderno y profesional • Dark-mode friendly -->
 
 <h1 align="center">Luciano Diotallevi</h1>
 <p align="center">
-  <b>Frontend Developer</b> · Argentina
+  <b>Frontend Developer</b> · Coordinador de Despachos @ EPSA · Argentina
   <br/>
-  Enfocado en interfaces accesibles, rendimiento y código mantenible.
+  Interfaces accesibles, rendimiento real y código mantenible.
 </p>
 
 <p align="center">
   <a href="https://lughdio.github.io/PreEntrega2-Diotallevi/" target="_blank">PSJ (live)</a> ·
   <a href="mailto:luciano.dio@outlook.com">Email</a> ·
   <a href="https://twitter.com/uchodio" target="_blank">Twitter</a> ·
-  <a href="https://www.linkedin.com/in/luciano-diotallevi" target="_blank">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/REEMPLAZAR-SLUG-LINKEDIN" target="_blank">LinkedIn</a>
 </p>
 
 ---
 
-### Now
-- 🚀 Construyendo: **PSJ** (UI simple, performance y DX).
-- 🌱 Aprendiendo: **Full Stack Development**.
-- 💬 Temas: **Web Development**, flujos de trabajo con Git y buenas prácticas.
+### Ahora
+- 🚚 Automatizando **importador DHL → EPresis** (Python + pandas + openpyxl + Excel/VBA): normaliza bases, mapea CP→Localidad/Provincia y genera el layout final para EPresis.
+- 📊 Construyendo **dashboard de despachos** (Excel / Power BI): tendencias semanales/mensuales, distribución por distribuidor y alertas visuales.
+- 🚀 Construyendo: **PSJ** (UI clara, performance y DX).
+- 🌱 Estudiando: **Tecnicatura Universitaria en Programación – UTN** (desde 2024, 1 año cursado).
+- 💬 Temas: **Web Development**, flujos con Git, calidad y métricas.
 
 ### Principios
-- ♿ **Accesibilidad primero** (semántica, contraste, focus states).
-- ⚡ **Performance** (assets livianos, lighthouse targets, métricas Core Web Vitals).
-- 🧩 **Mantenibilidad** (componentes claros, estilos escalables, convención > configuración).
+- ♿ **Accesibilidad**: HTML semántico, contraste y estados de foco.
+- ⚡ **Performance**: assets livianos, Lighthouse y Core Web Vitals.
+- 🧩 **Mantenibilidad**: componentes claros, estilos escalables, convención > configuración.
+
+### Experiencia
+- **EPSA — Coordinador de Despachos (Predespacho / Interior)** · nov/2024–presente  
+  Planillas de recorridos, documentación de despacho, gestión de BD de envíos al interior, integración y normalización de datos.  
+  • Automatizaciones con **Excel + macros** y **Python** (p.ej., importador **DHL → EPresis**).  
+  • Tableros e indicadores operativos (kickoff en Power BI / análisis con Excel).
+
+- **EPSA — Data Entry** · oct/2023–nov/2024  
+  Carga y limpieza de bases, control de calidad de datos, soporte a operaciones.
+
+- **Comscore — Data Entry** · may/2023–oct/2023  
+  Procesamiento y verificación de datos a escala.
+
+- **Actividad familiar — Construcción de piscinas** (intermitente)  
+  Tareas operativas/logísticas y coordinación puntual.
+
+### Educación
+- **UTN — Tecnicatura Universitaria en Programación (TUP)** · 2024–presente  
+  Contenidos cursados: Programación I, Arquitectura y Sistemas Operativos, Organización Empresarial, Matemática I.
 
 ### Tech Stack
 <p>
@@ -37,10 +58,9 @@
   <img alt="GitHub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="32"/>
 </p>
 
-### Highlights
-- 🧱 Diseño de componentes reutilizables y estilos modulados (BEM/utility-first).
-- 🧪 Testing básico de UI y validaciones.
-- 📦 Workflows con Git: ramas limpias, PRs y releases.
+### Proyectos
+- **PSJ** — UI liviana y enfoque en performance.  
+- **Importador DHL → EPresis** — pipeline para normalizar base de DHL, mapear CP→Localidad/Provincia, generar layout final (Excel/Python).
 
 ### Stats
 <p>
@@ -48,15 +68,20 @@
     alt="GitHub Stats"
     src="https://github-readme-stats.vercel.app/api?username=lughdio&show_icons=true&hide_title=true&theme=transparent&hide_rank=true"
     height="140"
-/>
+  />
   <img
     alt="Top Langs"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=lughdio&layout=compact&theme=transparent"
     height="140"
-/>
+  />
 </p>
 
 ---
+
+### Contacto
+- 📫 **luciano.dio@outlook.com**
+- 🐦 **@uchodio**
+- 🔗 **LinkedIn:** reemplazá el slug por el tuyo real
 
 ### Contact
 - 📫 **luciano.dio@outlook.com**
