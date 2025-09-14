@@ -80,5 +80,5 @@
 
 ### Contacto
 - 📫 **luciano.dio@outlook.com**
-- 🐦 **@uchodio**
+- 🐦 **@luchodio**
 - 🔗 **LinkedIn:** /in/luciano-diotallevi
