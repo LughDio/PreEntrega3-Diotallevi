@@ -1,19 +1,64 @@
-<h1 align="center">Hi 👋, I'm Luciano</h1>
-<h3 align="center">👨🏼‍💻 Frontend developer from Argentina</h3>
+<!-- Minimal, futurista y profesional • Dark-mode friendly -->
 
-- 🔭 I’m currently working on [PSJ](https://lughdio.github.io/PreEntrega2-Diotallevi/)
-
-- 🌱 I’m currently learning **Full Stack Development**
-
-- 💬 Ask me about **Web Development**
-
-- 📫 How to reach me **luciano.dio@outlook.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/uchodio" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="uchodio" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/luciano diotallevi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="luciano diotallevi" height="30" width="40" /></a>
+<h1 align="center">Luciano Diotallevi</h1>
+<p align="center">
+  <b>Frontend Developer</b> · Argentina
+  <br/>
+  Enfocado en interfaces accesibles, rendimiento y código mantenible.
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> </p>
+<p align="center">
+  <a href="https://lughdio.github.io/PreEntrega2-Diotallevi/" target="_blank">PSJ (live)</a> ·
+  <a href="mailto:luciano.dio@outlook.com">Email</a> ·
+  <a href="https://twitter.com/uchodio" target="_blank">Twitter</a> ·
+  <a href="https://www.linkedin.com/in/luciano-diotallevi" target="_blank">LinkedIn</a>
+</p>
+
+---
+
+### Now
+- 🚀 Construyendo: **PSJ** (UI simple, performance y DX).
+- 🌱 Aprendiendo: **Full Stack Development**.
+- 💬 Temas: **Web Development**, flujos de trabajo con Git y buenas prácticas.
+
+### Principios
+- ♿ **Accesibilidad primero** (semántica, contraste, focus states).
+- ⚡ **Performance** (assets livianos, lighthouse targets, métricas Core Web Vitals).
+- 🧩 **Mantenibilidad** (componentes claros, estilos escalables, convención > configuración).
+
+### Tech Stack
+<p>
+  <img alt="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="32"/>
+  <img alt="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="32"/>
+  <img alt="Sass"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="32"/>
+  <img alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32"/>
+  <img alt="Bootstrap" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="32"/>
+  <img alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="32"/>
+  <img alt="GitHub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="32"/>
+</p>
+
+### Highlights
+- 🧱 Diseño de componentes reutilizables y estilos modulados (BEM/utility-first).
+- 🧪 Testing básico de UI y validaciones.
+- 📦 Workflows con Git: ramas limpias, PRs y releases.
+
+### Stats
+<p>
+  <img
+    alt="GitHub Stats"
+    src="https://github-readme-stats.vercel.app/api?username=lughdio&show_icons=true&hide_title=true&theme=transparent&hide_rank=true"
+    height="140"
+/>
+  <img
+    alt="Top Langs"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=lughdio&layout=compact&theme=transparent"
+    height="140"
+/>
+</p>
+
+---
+
+### Contact
+- 📫 **luciano.dio@outlook.com**
+- 🐦 **@uchodio**
+- 🔗 **LinkedIn:** /in/luciano-diotallevi
