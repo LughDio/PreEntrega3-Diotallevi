@@ -1,7 +1,7 @@
 {
-  "name": "preentrega2-diotallevi",
+  "name": "preentrega3-diotallevi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Piscinas San José - Website for pool construction company",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LughDio/PROYECTO-LUCIANO-DIOTALLEVI.git"
+    "url": "git+https://github.com/LughDio/PreEntrega3-Diotallevi.git"
   },
-  "author": "",
+  "author": "Luciano Diotallevi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LughDio/PROYECTO-LUCIANO-DIOTALLEVI/issues"
+    "url": "https://github.com/LughDio/PreEntrega3-Diotallevi/issues"
   },
-  "homepage": "https://github.com/LughDio/PROYECTO-LUCIANO-DIOTALLEVI#readme",
+  "homepage": "https://github.com/LughDio/PreEntrega3-Diotallevi#readme",
   "devDependencies": {
-    "node-sass": "^7.0.3",
-    "nodemon": "^2.0.20"
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.10"
   }
 }
