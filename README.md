@@ -8,10 +8,10 @@
 </p>
 
 <p align="center">
-  <a href="https://lughdio.github.io/PreEntrega2-Diotallevi/" target="_blank">PSJ (live)</a> ·
+  <a href="https://piscinassanjose.netlify.app/" target="_blank">PSJ (live)</a> ·
   <a href="mailto:luciano.dio@outlook.com">Email</a> ·
   <a href="https://twitter.com/uchodio" target="_blank">Twitter</a> ·
-  <a href="https://www.linkedin.com/in/REEMPLAZAR-SLUG-LINKEDIN" target="_blank">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/luciano-diotallevi" target="_blank">LinkedIn</a>
 </p>
 
 ---
@@ -78,7 +78,4 @@
 
 ---
 
-### Contacto
-- 📫 **luciano.dio@outlook.com**
-- 🐦 **@luchodio**
-- 🔗 **LinkedIn:** /in/luciano-diotallevi
+
