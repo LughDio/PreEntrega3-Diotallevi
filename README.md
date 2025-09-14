@@ -11,7 +11,7 @@
   <a href="https://piscinassanjose.netlify.app/" target="_blank">PSJ (live)</a> ·
   <a href="mailto:luciano.dio@outlook.com">Email</a> ·
   <a href="https://twitter.com/uchodio" target="_blank">Twitter</a> ·
-  <a href="https://www.linkedin.com/in/luciano-diotallevi" target="_blank">LinkedIn</a>
+  <a href="[https://www.linkedin.com/in/luciano-diotallevi](https://www.linkedin.com/in/lucianodiotallevi/)" target="_blank">LinkedIn</a>
 </p>
 
 ---
