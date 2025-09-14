@@ -81,9 +81,4 @@
 ### Contacto
 - 📫 **luciano.dio@outlook.com**
 - 🐦 **@uchodio**
-- 🔗 **LinkedIn:** reemplazá el slug por el tuyo real
-
-### Contact
-- 📫 **luciano.dio@outlook.com**
-- 🐦 **@uchodio**
 - 🔗 **LinkedIn:** /in/luciano-diotallevi
