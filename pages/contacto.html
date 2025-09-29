@@ -38,13 +38,17 @@
     <main class="main hero">
         <section>
             <h2 class="animate__animated animate__fadeInUp">Contacto</h2>
-            <form action="">
-                <input type="text" name="Nombre" placeholder="Nombre">
-                <input type="text" name="Correo" placeholder="Correo">
-                <input type="text" name="Teléfono" placeholder="Teléfono">
-                <textarea name="Consulta" placeholder="Dejanos tu consulta"></textarea>
-                <input type="button" value="ENVIAR" id="boton">
-            </form>
+                <form action="/contacto" method="POST">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+          <label for="correo">Correo:</label>
+          <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required>
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="Teléfono">
+          <label for="mensaje">Consulta:</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Dejanos tu consulta" required></textarea>
+          <button type="submit" id="boton">Enviar</button>
+        </form>    </form>
         </section>
     </main>
     <footer class="footer">
