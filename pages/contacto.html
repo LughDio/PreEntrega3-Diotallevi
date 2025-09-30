@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Animate.css and Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Main and override styles -->
     <link rel="stylesheet" href="../css/estilos.css">
-        <link rel="stylesheet" href="../css/override.css">
-
+    <link rel="stylesheet" href="../css/override.css">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
-    <meta  eta property="og:url" content="https://lughdio.github.io/PreEntrega3-Diotallevi/pages/contacto.html">
-    <meta property="og:image" content="https://lughdio.github.io/PreEntrega3-Diotallevi/img/logo.png">    <link rel="stylesheet" href="../css/estilos.css">
-    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
-    <meta name="description" content="Recibí al mundial con tu pile! Empresa de construcción y mantenimiento de piscinas. Hacemos trabajos en todo el país. Cientos de clientes satisfechos y más de 40 años en el rubro.">
-    <meta name="keywords" content="Construcción, albañilería, arquitectura, edificio, contratista, constructor, albañil, empresa, casa, remodelación, mantenimiento, obrero, peón, material, materiales, piscinas, piletas de natación, playa húmeda, bomba de agua, automático, barrefondo, ph, cloro, verano, borde infinito">
-    <title>Contacto - PSJ</title>
-    <meta property="og:type" content="Web site">
+    <!-- Meta Tags for SEO & Social -->
+    <meta name="description" content="Empresa de construcción y mantenimiento de piscinas. Hacemos trabajos en todo el país.">
+    <meta name="keywords" content="Construcción, piscinas, piletas de natación, mantenimiento">
+    <meta property="og:type" content="website">
     <meta property="og:title" content="PSJ | Empresa constructora de piscinas y piletas de natación">
     <meta property="og:description" content="Recibí al mundial con tu pile! Empresa de construcción y mantenimiento de piscinas. Hacemos trabajos en todo el país. Cientos de clientes satisfechos y más de 40 años en el rubro.">
     <meta property="og:url" content="https://lughdio.github.io/PreEntrega3-Diotallevi/pages/contacto.html">
-    <meta property="og:image" content="https://lughdio.github.io/PreEntrega3-Diotallevi/img/logo.png">img/logo.pngogo.png">
+    <meta property="og:image" content="https://lughdio.github.io/PreEntrega3-Diotallevi/img/logo.png">
+    <title>Contacto - PSJ</title>
 </head>
-
 <body>
     <header class="navar">
         <input type="checkbox" id="btn-menu">
@@ -34,37 +30,61 @@
         <nav class="menu">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/acercade.html">Acerca de</a></li>
-                <li><a href="../pages/nuestrostrabajos.html">Nuestros Trabajos</a></li>
-                <li><a href="../pages/serviciospost.html">Servicios Post Obra</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <li><a href="acercade.html">Acerca de</a></li>
+                <li><a href="nuestrostrabajos.html">Nuestros Trabajos</a></li>
+                <li><a href="serviciospost.html">Servicios Post Obra</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main class="main hero">
         <section>
             <h2 class="animate__animated animate__fadeInUp">Contacto</h2>
-                <form action="/contacto" method="POST">
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
-          <label for="correo">Correo:</label>
-          <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required>
-          <label for="telefono">Teléfono:</label>
-          <input type="tel" id="telefono" name="telefono" placeholder="Teléfono">
-          <label for="mensaje">Consulta:</label>
-          <textarea id="mensaje" name="mensaje" placeholder="Dejanos tu consulta" required></textarea>
-          <button type="submit" id="boton">Enviar</button>
-        </form>    </form>
+            <!-- Formulario de contacto - enviar a Formsubmit -->
+            <form action="https://formsubmit.co/luciano.dio90@gmail.com" method="POST">
+                <!-- Disable CAPTCHA provided by Formsubmit -->
+                <input type="hidden" name="_captcha" value="false">
+                <!-- Redirect back to the contact page after submission -->
+                <input type="hidden" name="_next" value="https://lughdio.github.io/PreEntrega3-Diotallevi/pages/contacto.html?enviado=true">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo electrónico" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Teléfono">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Consulta</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Dejanos tu consulta" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <!-- Mensaje de confirmación (se muestra si ?enviado=true) -->
+            <div id="mensajeEnviado" style="display: none; margin-top: 1em;">
+                <div class="alert alert-success" role="alert">
+                    ¡Gracias! Tu mensaje ha sido enviado correctamente.
+                </div>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <a href="https://www.facebook.com/piletasdenatacion"><img src="../img/fb.png" alt="Logo de facebook"></a>
-        <a href="https://www.instagram.com/piletassanjoseok/"><img src="../img/ig.png" alt="Logo de instagram"></a>
-        <a
-            href="https://wa.me/541126501662?text=%C2%A1Gracias%20por%20comunicarte%20con%20Piscinas%20San%20Jos%C3%A9!%20Dejanos%20tu%20consulta%20y%20en%20breve%20te%20responderemos"><img
-                src="../img/wsp.png" alt="Logo de whatsapp"></a>
+        <a href="https://www.facebook.com/piletasdenatacion"><img src="../img/fb.png" alt="Logo de Facebook"></a>
+        <a href="https://www.instagram.com/piletassanjoseok/"><img src="../img/ig.png" alt="Logo de Instagram"></a>
+        <a href="https://wa.me/541126501662?text=%C2%A1Gracias%20por%20comunicarte%20con%20Piscinas%20San%20Jos%C3%A9!%20Dejanos%20tu%20consulta%20y%20en%20breve%20te%20responderemos"><img src="../img/wsp.png" alt="Logo de WhatsApp"></a>
     </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Mostrar mensaje de confirmación si la URL contiene ?enviado=true
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('enviado') === 'true') {
+            document.getElementById('mensajeEnviado').style.display = 'block';
+        }
+    </script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-
 </html>
