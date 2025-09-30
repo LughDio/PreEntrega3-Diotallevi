@@ -8,3 +8,23 @@
     color: #ffffff;
     font-weight: 600;
 }
+
+/*
+ * Override the default grid layout to remove the large blank space at the
+ * bottom of pages. The original CSS defined four grid rows but only
+ * provided three rows of content (nav, main and footer), which left an
+ * empty row that showed up as a blank section. By redefining the
+ * grid-template-rows and grid-template-areas here, we collapse the
+ * layout into three rows and eliminate the unwanted space.
+ */
+body {
+    /* Remove any gap between grid rows */
+    gap: 0;
+    /* Keep the original header and footer heights */
+    grid-template-rows: 54px 1fr 120px;
+    /* Define only three rows: navar, main and footer */
+    grid-template-areas:
+        "navar navar navar"
+        "main main main"
+        "footer footer footer";
+}
