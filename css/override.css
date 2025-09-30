@@ -1,5 +1,10 @@
 .hero .indexText .logo {
-width: auto !important;
-  max-width: 300px;
-  height: auto;
+    width: auto !important;
+    max-width: 300px;
+    height: auto;
+}
+/* Improve readability of form labels on dark backgrounds */
+.main.hero form label {
+    color: #ffffff;
+    font-weight: 600;
 }
