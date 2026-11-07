@@ -1,0 +1,9 @@
+# Las páginas viejas ahora son secciones de la página principal
+/pages/acercade               /#nosotros   301
+/pages/acercade.html          /#nosotros   301
+/pages/nuestrostrabajos       /#trabajos   301
+/pages/nuestrostrabajos.html  /#trabajos   301
+/pages/serviciospost          /#servicios  301
+/pages/serviciospost.html     /#servicios  301
+/pages/contacto               /#contacto   301
+/pages/contacto.html          /#contacto   301

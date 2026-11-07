@@ -1,96 +1,325 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-AR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- External stylesheets -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0w8acK2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-        crossorigin="anonymous">
-    <!-- Site styles -->
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./css/override.css">
-    <!-- Icons -->
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
-    <!-- Meta tags -->
-    <meta name="description" content="¡Recibí al mundial con tu pile! Empresa de construcción y mantenimiento de piscinas. Hacemos trabajos en todo el país. Cientos de clientes satisfechos y más de 40 años en el rubro.">
-    <meta name="keywords" content="Construcción, albañilería, arquitectura, edificio, contratista, constructor, albañil, empresa, casa, remodelación, mantenimiento, obrero, peón, material, materiales, construir piletas, construir piscinas, piletas de natación, playa húmeda, bomba de agua, automático, barrefondo, ph, cloro, verano, borde infinito">
-    <title>Piscinas San José</title>
-    <!-- Open Graph tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Piscinas San José | Construcción de piscinas a medida y mantenimiento</title>
+    <meta name="description" content="Construcción de piscinas a medida y mantenimiento. 36 años de experiencia. Pedí tu presupuesto sin cargo por WhatsApp.">
+    <meta name="theme-color" content="#0b2a43">
+
+    <!-- Al compartir el link (WhatsApp, Facebook, Instagram) -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="PSJ | Empresa constructora de piscinas y piletas de natación">
-    <meta property="og:description" content="¡Recibí al mundial con tu pile! Empresa de construcción y mantenimiento de piscinas. Hacemos trabajos en todo el país. Cientos de clientes satisfechos y más de 40 años en el rubro.">
-    <meta property="og:url" content="https://lughdio.github.io/PreEntrega3-Diotallevi/">
-    <meta property="og:image" content="https://lughdio.github.io/PreEntrega3-Diotallevi/img/logo.png">
+    <meta property="og:locale" content="es_AR">
+    <meta property="og:site_name" content="Piscinas San José">
+    <meta property="og:title" content="Piscinas San José | Tu pileta donde quieras, como quieras">
+    <meta property="og:description" content="Construcción de piscinas a medida y mantenimiento. 36 años de experiencia. Presupuesto sin cargo.">
+    <meta property="og:url" content="https://piscinassanjose.netlify.app/">
+    <meta property="og:image" content="https://piscinassanjose.netlify.app/img/og-psj.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Piscinas San José. Presupuesto sin cargo.">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="img/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="preload" href="fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" as="image" type="image/webp" imagesrcset="img/hero-900.webp 900w, img/hero-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">
+    <link rel="stylesheet" href="css/site.css">
+    <script>document.documentElement.classList.add('js');</script>
+
+    <!-- Datos para Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Piscinas San José",
+      "description": "Construcción de piscinas a medida y mantenimiento. 36 años de experiencia.",
+      "slogan": "Tu pileta donde quieras, como quieras",
+      "url": "https://piscinassanjose.netlify.app/",
+      "image": "https://piscinassanjose.netlify.app/img/og-psj.jpg",
+      "logo": "https://piscinassanjose.netlify.app/img/logo-psj.png",
+      "telephone": "+5493447648891",
+      "sameAs": ["https://www.instagram.com/piletassanjoseok/"]
+    }
+    </script>
 </head>
 <body>
-    <!-- Navigation bar -->
-    <header class="navar">
-        <input type="checkbox" id="btn-menu">
-        <label for="btn-menu"><img src="./img/icono-menu.png" alt="Icono menú"></label>
-        <nav class="menu">
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/acercade.html">Acerca de</a></li>
-                <li><a href="./pages/nuestrostrabajos.html">Nuestros Trabajos</a></li>
-                <li><a href="./pages/serviciospost.html">Servicios Post Obra</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Hero section -->
-    <main class="hero">
-        <div class="indexText">
-            <img class="logo animate__animated animate__fadeInUp" src="./img/logo.png" alt="Logo">
-            <h1 class="tituloPSJ animate__animated animate__fadeInUp">Piscinas San José</h1>
-            <h2 class="animate__animated animate__fadeInUp">Tu pileta donde quieras, como quieras</h2>
+    <!-- Íconos -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+        <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+        <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></symbol>
+        <symbol id="i-ruler" viewBox="0 0 24 24"><path d="M3 17L17 3l4 4L7 21z"/><path d="M6.5 14.5l2 2M9.5 11.5l2 2M12.5 8.5l2 2"/></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></symbol>
+        <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></symbol>
+        <symbol id="i-ig" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></symbol>
+        <symbol id="i-fb" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+    </svg>
+
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" id="inicio">
+        <div class="wrap header-in">
+            <a class="brand" href="#inicio" aria-label="Piscinas San José, ir al inicio">
+                <img src="img/logo-psj.png" alt="" width="35" height="44">
+                <span>Piscinas <b>San José</b></span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><span></span></button>
+            <nav class="nav" id="menu" aria-label="Principal">
+                <a href="#trabajos">Trabajos</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+                <a class="btn btn--wa btn--sm" href="https://wa.me/5493447648891?text=Hola%21%20Escribo%20desde%20la%20p%C3%A1gina%20web%20de%20Piscinas%20San%20Jos%C3%A9.%20Quiero%20pedir%20un%20presupuesto%20sin%20cargo.%20Mi%20localidad%20es%3A%20" target="_blank" rel="noopener">
+                    <svg class="ico ico--fill" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp
+                </a>
+            </nav>
         </div>
-        <!-- Cards section -->
-        <div class="container">
-            <div class="row g-6" align="center">
-                <!-- Nuestros Trabajos card -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card bg-transparent animate__animated animate__fadeInUp" style="width:15rem;">
-                        <img src="./img/icon1.png" alt="Nuestros Trabajos">
-                        <div class="card-body">
-                            <h5 class="card-title bg-info"><strong>Nuestros Trabajos</strong></h5>
-                            <a href="./pages/nuestrostrabajos.html" class="btn btn-info"><strong>Ver más</strong></a>
-                        </div>
-                    </div>
+    </header>
+
+    <main id="contenido">
+        <!-- ===== Portada ===== -->
+        <section class="hero" aria-labelledby="titulo">
+            <picture class="hero__bg">
+                <source type="image/webp" srcset="img/hero-900.webp 900w, img/hero-1600.webp 1600w" sizes="100vw">
+                <img src="img/hero-1600.jpg" alt="" width="1600" height="1209" fetchpriority="high" decoding="async">
+            </picture>
+            <div class="hero__shade"></div>
+            <div class="wrap hero__in">
+                <p class="eyebrow">Construcción y mantenimiento de piscinas</p>
+                <h1 id="titulo">Tu pileta donde quieras, <span class="grad">como quieras</span></h1>
+                <p class="lead">Hacemos tu piscina a medida. Contanos tu localidad y las medidas que tenés en mente y te pasamos un presupuesto sin cargo.</p>
+                <div class="hero__cta">
+                    <a class="btn btn--wa btn--lg" href="https://wa.me/5493447648891?text=Hola%21%20Escribo%20desde%20la%20p%C3%A1gina%20web%20de%20Piscinas%20San%20Jos%C3%A9.%20Quiero%20pedir%20un%20presupuesto%20sin%20cargo.%20Mi%20localidad%20es%3A%20" target="_blank" rel="noopener">
+                        <svg class="ico ico--fill" aria-hidden="true"><use href="#i-wa"/></svg>Pedí tu presupuesto sin cargo
+                    </a>
+                    <a class="btn btn--ghost btn--lg" href="#trabajos">Ver trabajos</a>
                 </div>
-                <!-- Servicios Post Obra card -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card bg-transparent animate__animated animate__fadeInUp" style="width:15rem;">
-                        <img src="./img/icon2.png" alt="Servicios Post Obra">
-                        <div class="card-body">
-                            <h5 class="card-title bg-info"><strong>Servicios Post Obra</strong></h5>
-                            <a href="./pages/serviciospost.html" class="btn btn-info"><strong>Ver más</strong></a>
+                <p class="hero__tel">O llamanos al <a href="tel:+5493447648891">+54 9 3447 64-8891</a></p>
+            </div>
+            <svg class="wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path fill="#fff" d="M0 42c160 36 320 46 480 28S800 4 960 12s320 38 480 66v12H0z"/></svg>
+        </section>
+
+        <section class="trust" aria-label="Por qué elegirnos">
+            <ul class="wrap trust__list">
+                <li><svg class="ico" aria-hidden="true"><use href="#i-award"/></svg><div><strong>36 años</strong><span>de experiencia</span></div></li>
+                <li><svg class="ico" aria-hidden="true"><use href="#i-ruler"/></svg><div><strong>A medida</strong><span>del tamaño que necesites</span></div></li>
+                <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><div><strong>Presupuesto</strong><span>sin cargo</span></div></li>
+                <li><svg class="ico" aria-hidden="true"><use href="#i-home"/></svg><div><strong>Empresa</strong><span>familiar</span></div></li>
+            </ul>
+        </section>
+
+        <!-- ===== Trabajos ===== -->
+        <section class="section" id="trabajos" aria-labelledby="t-trabajos">
+            <div class="wrap">
+                <header class="section__head reveal">
+                    <p class="eyebrow eyebrow--dark">Nuestros trabajos</p>
+                    <h2 id="t-trabajos">Obras reales, hechas con compromiso</h2>
+                    <p class="section__sub">Algunas de las piscinas que construimos en Entre Ríos y Buenos Aires.</p>
+                </header>
+
+                <ul class="gallery reveal" aria-label="Galería de piscinas">
+                    <li>
+                        <button class="tile" type="button" data-full="img/obras/muniz-6x3.webp" data-caption="Piscina 6x3 · Muñiz, Buenos Aires" data-alt="Piscina de 6 por 3 metros con borde de piedra en Muñiz, Buenos Aires">
+                            <img src="img/obras/muniz-6x3-sm.webp" alt="Piscina de 6 por 3 metros con borde de piedra en Muñiz, Buenos Aires" width="640" height="425" loading="lazy" decoding="async">
+                            <span class="tile__cap">Piscina 6x3<small>Muñiz, Buenos Aires</small></span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="tile" type="button" data-full="img/obras/sanjose-6x4.webp" data-caption="Piscina 6x4 · San José, Entre Ríos" data-alt="Piscina de 6 por 4 metros con chorros de agua en San José, Entre Ríos">
+                            <img src="img/obras/sanjose-6x4-sm.webp" alt="Piscina de 6 por 4 metros con chorros de agua en San José, Entre Ríos" width="640" height="641" loading="lazy" decoding="async">
+                            <span class="tile__cap">Piscina 6x4<small>San José, Entre Ríos</small></span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="tile" type="button" data-full="img/obras/laclarita-7x4.webp" data-caption="Piscina 7x4 · La Clarita, Entre Ríos" data-alt="Piscina de 7 por 4 metros con escalera en La Clarita, Entre Ríos">
+                            <img src="img/obras/laclarita-7x4-sm.webp" alt="Piscina de 7 por 4 metros con escalera en La Clarita, Entre Ríos" width="528" height="525" loading="lazy" decoding="async">
+                            <span class="tile__cap">Piscina 7x4<small>La Clarita, Entre Ríos</small></span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="tile" type="button" data-full="img/obras/colon-7x3.webp" data-caption="Piscina 7x3 · Colón, Entre Ríos" data-alt="Piscina de 7 por 3 metros en construcción en Colón, Entre Ríos">
+                            <img src="img/obras/colon-7x3-sm.webp" alt="Piscina de 7 por 3 metros en construcción en Colón, Entre Ríos" width="528" height="529" loading="lazy" decoding="async">
+                            <span class="tile__cap">Piscina 7x3<small>Colón, Entre Ríos</small></span>
+                        </button>
+                    </li>
+                </ul>
+
+                <figure class="testimonial reveal">
+                    <video controls playsinline preload="none" poster="img/cliente1-poster.jpg" width="640" height="352">
+                        <source src="vid/cliente1.mp4" type="video/mp4">
+                        Tu navegador no puede reproducir este video.
+                    </video>
+                    <figcaption>Mario y su familia estrenando su piscina<small>Colonia Hughes, Entre Ríos · Octubre 2022</small></figcaption>
+                </figure>
+
+                <p class="gallery-cta reveal">
+                    <a class="btn btn--wa btn--lg" href="https://wa.me/5493447648891?text=Hola%21%20Vi%20los%20trabajos%20en%20la%20p%C3%A1gina%20web%20de%20Piscinas%20San%20Jos%C3%A9%20y%20quiero%20un%20presupuesto%20sin%20cargo%20para%20mi%20pileta.%20Mi%20localidad%20es%3A%20" target="_blank" rel="noopener">
+                        <svg class="ico ico--fill" aria-hidden="true"><use href="#i-wa"/></svg>Quiero una pileta así
+                    </a>
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== Servicios ===== -->
+        <section class="section section--sky" id="servicios" aria-labelledby="t-servicios">
+            <div class="wrap">
+                <header class="section__head reveal">
+                    <p class="eyebrow eyebrow--dark">Servicios</p>
+                    <h2 id="t-servicios">Construimos tu pileta y la dejamos lista para disfrutar</h2>
+                    <p class="section__sub">Desde la obra hasta el mantenimiento semanal o quincenal.</p>
+                </header>
+
+                <div class="cards">
+                    <article class="card card--feature reveal">
+                        <img class="card__img" src="img/obras/sanjose-6x4.webp" srcset="img/obras/sanjose-6x4-800.webp 800w, img/obras/sanjose-6x4.webp 1152w" sizes="(min-width: 900px) min(511px, 45vw), calc(100vw - 40px)" alt="Piscina de 6 por 4 metros construida en San José, Entre Ríos" width="1152" height="1153" loading="lazy" decoding="async">
+                        <div class="card__body">
+                            <h3>Construcción de piscinas a medida</h3>
+                            <p>Vos elegís dónde y cómo la querés. Ya hicimos piscinas de 6x3, 6x4, 7x3 y 7x4 metros, y la tuya la hacemos del tamaño que necesites.</p>
+                            <ul class="ticks">
+                                <li>Piscinas a medida</li>
+                                <li>Presupuesto sin cargo</li>
+                                <li>Empresa familiar con 36 años de experiencia</li>
+                            </ul>
+                            <a class="btn btn--wa" href="https://wa.me/5493447648891?text=Hola%21%20Escribo%20desde%20la%20p%C3%A1gina%20web%20de%20Piscinas%20San%20Jos%C3%A9.%20Quiero%20pedir%20un%20presupuesto%20sin%20cargo.%20Mi%20localidad%20es%3A%20" target="_blank" rel="noopener">
+                                <svg class="ico ico--fill" aria-hidden="true"><use href="#i-wa"/></svg>Pedir presupuesto
+                            </a>
                         </div>
-                    </div>
-                </div>
-                <!-- Contacto card -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="card bg-transparent animate__animated animate__fadeInUp" style="width:15rem;">
-                        <img src="./img/icon3.png" alt="Contacto">
-                        <div class="card-body">
-                            <h5 class="card-title bg-info"><strong>Contacto</strong></h5>
-                            <a href="./pages/contacto.html" class="btn btn-info"><strong>Ver más</strong></a>
+                    </article>
+
+                    <article class="card reveal" style="--d:.1s">
+                        <img class="card__img" src="img/mantenimiento.webp" alt="Productos para el mantenimiento y la limpieza de piscinas" width="900" height="600" loading="lazy" decoding="async">
+                        <div class="card__body">
+                            <h3>Mantenimiento y limpieza</h3>
+                            <p>Dejamos tu pileta lista y cuidada, con servicio semanal o quincenal.</p>
+                            <ul class="ticks ticks--2">
+                                <li>Recuperación de aguas</li>
+                                <li>Desagote total de piscinas</li>
+                                <li>Barrido de fondo</li>
+                                <li>Limpieza y cepillado de paredes</li>
+                                <li>Limpieza de skimmer y canasta de bomba</li>
+                                <li>Control y agregado de productos químicos</li>
+                                <li>Test de pH y cloro</li>
+                                <li>Provisión de productos</li>
+                                <li>Retrolavado y enjuague de filtro</li>
+                                <li>Mantenimiento semanal o quincenal</li>
+                            </ul>
+                            <a class="btn btn--outline" href="https://wa.me/5493447648891?text=Hola%21%20Escribo%20desde%20la%20p%C3%A1gina%20web%20de%20Piscinas%20San%20Jos%C3%A9.%20Quiero%20consultar%20por%20el%20mantenimiento%20y%20la%20limpieza%20de%20mi%20pileta.%20Mi%20localidad%20es%3A%20" target="_blank" rel="noopener">
+                                <svg class="ico ico--fill" aria-hidden="true"><use href="#i-wa"/></svg>Consultar mantenimiento
+                            </a>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <!-- ===== Nosotros ===== -->
+        <section class="section" id="nosotros" aria-labelledby="t-nosotros">
+            <div class="wrap about">
+                <div class="reveal">
+                    <p class="eyebrow eyebrow--dark">Nosotros</p>
+                    <h2 id="t-nosotros">36 años de experiencia, calidad e innovación en la construcción de natatorios</h2>
+                    <p>Somos una empresa familiar especialista en la construcción de piscinas y espacios que inspiran felicidad.</p>
+                    <p>Nuestra meta es ser considerados la mejor constructora de piscinas, con calidad e innovación como valor diferencial. Ponemos seriedad y compromiso en cada detalle y generamos con nuestros clientes un vínculo estrecho.</p>
+                </div>
+                <div class="video reveal" style="--d:.1s" data-yt="g6bjqrXfsfY">
+                    <button class="video__btn" type="button" aria-label="Reproducir video">
+                        <img src="https://i.ytimg.com/vi/g6bjqrXfsfY/hqdefault.jpg" alt="" width="480" height="360" loading="lazy">
+                        <span class="video__play" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Contacto ===== -->
+        <section class="section section--navy" id="contacto" aria-labelledby="t-contacto">
+            <div class="wrap contact">
+                <div class="contact__info reveal">
+                    <p class="eyebrow">Contacto</p>
+                    <h2 id="t-contacto">Pedí tu presupuesto sin cargo</h2>
+                    <p>Contanos tu localidad, las medidas que tenés en mente y cuándo querés empezar la obra. Te respondemos por WhatsApp.</p>
+                    <a class="btn btn--wa btn--lg" href="https://wa.me/5493447648891?text=Hola%21%20Escribo%20desde%20la%20p%C3%A1gina%20web%20de%20Piscinas%20San%20Jos%C3%A9.%20Quiero%20pedir%20un%20presupuesto%20sin%20cargo.%20Mi%20localidad%20es%3A%20" target="_blank" rel="noopener">
+                        <svg class="ico ico--fill" aria-hidden="true"><use href="#i-wa"/></svg>Escribinos por WhatsApp
+                    </a>
+                    <ul class="contact__list">
+                        <li><a href="tel:+5493447648891"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>+54 9 3447 64-8891</a></li>
+                        <li><a href="https://www.instagram.com/piletassanjoseok/" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg>@piletassanjoseok</a></li>
+                        <li><a href="https://www.facebook.com/piletasdenatacion" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-fb"/></svg>Facebook</a></li>
+                    </ul>
+                </div>
+
+                <form class="form reveal" style="--d:.1s" action="https://formsubmit.co/luciano.dio90@gmail.com" method="POST">
+                    <h3>¿Preferís dejarnos tu consulta acá?</h3>
+                    <p>Completá el formulario y te respondemos a la brevedad.</p>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_subject" value="Nueva consulta desde la web de Piscinas San José">
+                    <input type="hidden" name="_next" value="https://piscinassanjose.netlify.app/?enviado=true#contacto">
+                    <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+                    <div class="field">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+                    </div>
+                    <div class="field">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </div>
+                    <div class="field">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" autocomplete="tel">
+                    </div>
+                    <div class="field">
+                        <label for="mensaje">Consulta (localidad, medidas y fecha estimada de inicio de obra)</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                    </div>
+                    <button class="btn btn--dark btn--lg" type="submit">Enviar consulta</button>
+                    <p class="form__ok" id="form-ok" role="status" hidden>¡Gracias! Tu mensaje fue enviado correctamente.</p>
+                </form>
+            </div>
+        </section>
     </main>
-    <!-- Footer -->
+
     <footer class="footer">
-        <a href="https://www.facebook.com/piletasdenatacion"><img src="./img/fb.png" alt="Logo de facebook"></a>
-        <a href="https://www.instagram.com/piletassanjoseok/"><img src="./img/ig.png" alt="Logo de instagram"></a>
-        <a href="https://wa.me/541126501662?text=%C2%A1Gracias%20por%20comunicarte%20con%20Piscinas%20San%20Jos%C3%A9!%20Dejanos%20tu%20consulta%20y%20en%20breve%20te%20responderemos"><img src="./img/wsp.png" alt="Logo de whatsapp"></a>
+        <div class="wrap">
+            <div class="footer__in">
+                <div>
+                    <a class="brand" href="#inicio">
+                        <img src="img/logo-psj.png" alt="" width="35" height="44">
+                        <span>Piscinas San José</span>
+                    </a>
+                    <p>Tu pileta donde quieras, como quieras.</p>
+                </div>
+                <nav aria-label="Secciones">
+                    <a href="#trabajos">Trabajos</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                <div class="social">
+                    <a href="https://wa.me/5493447648891" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="ico ico--fill" aria-hidden="true"><use href="#i-wa"/></svg></a>
+                    <a href="https://www.instagram.com/piletassanjoseok/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ico" aria-hidden="true"><use href="#i-ig"/></svg></a>
+                    <a href="https://www.facebook.com/piletasdenatacion" target="_blank" rel="noopener" aria-label="Facebook"><svg class="ico" aria-hidden="true"><use href="#i-fb"/></svg></a>
+                </div>
+            </div>
+            <p class="footer__copy">© <span id="anio">2026</span> Piscinas San José. Todos los derechos reservados.</p>
+        </div>
     </footer>
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <a class="wa-float" href="https://wa.me/5493447648891?text=Hola%21%20Escribo%20desde%20la%20p%C3%A1gina%20web%20de%20Piscinas%20San%20Jos%C3%A9.%20Quiero%20pedir%20un%20presupuesto%20sin%20cargo.%20Mi%20localidad%20es%3A%20" target="_blank" rel="noopener" aria-label="Pedí presupuesto por WhatsApp">
+        <svg class="ico ico--fill" aria-hidden="true"><use href="#i-wa"/></svg>
+        <span>Pedí presupuesto</span>
+    </a>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Foto ampliada">
+        <button class="lightbox__close" type="button" aria-label="Cerrar">&times;</button>
+        <button class="lightbox__prev" type="button" aria-label="Foto anterior">&lsaquo;</button>
+        <figure>
+            <img src="" alt="">
+            <figcaption></figcaption>
+        </figure>
+        <button class="lightbox__next" type="button" aria-label="Foto siguiente">&rsaquo;</button>
+    </dialog>
+
+    <script src="js/site.js" defer></script>
 </body>
 </html>
