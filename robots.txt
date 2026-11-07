@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://piscinassanjose.netlify.app/sitemap.xml
