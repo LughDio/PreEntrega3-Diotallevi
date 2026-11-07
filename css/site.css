@@ -388,10 +388,9 @@ h3 {
     max-width: 22ch;
   }
 }
-@media (max-width: 899px) {
-  .hero__bg img {
-    height: 135%;
-  }
+/* La foto se agranda y se recorta abajo para que no se vea la persona, en cualquier ancho de pantalla */
+.hero__bg img {
+  height: 135%;
 }
 .hero .lead {
   max-width: 34em;
