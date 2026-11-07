@@ -36,6 +36,10 @@ El link se comparte por WhatsApp y redes sociales, así que lo diseñé **primer
 | Que Google lo entienda | Datos estructurados `HomeAndConstructionBusiness` (JSON-LD), título y descripción propios, `sitemap.xml` y `robots.txt`. |
 | Que los links viejos sigan funcionando | `_redirects` con 301 desde las páginas de la versión anterior hacia las secciones nuevas. |
 
+<p align="center">
+  <img src="docs/img/escritorio-trabajos.jpg" alt="Sección de trabajos en una computadora: cuatro obras reales con su medida y su localidad" width="860">
+</p>
+
 ## Resultados medidos
 
 Lighthouse 12, celular, con la limitación de red y CPU simulada (corrida local con compresión):
