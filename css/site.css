@@ -134,6 +134,7 @@ h3 {
   font-weight: 700;
   line-height: 1.1;
   text-align: center;
+  text-wrap: balance;
   text-decoration: none;
   cursor: pointer;
   transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease, color 0.15s ease;
@@ -148,6 +149,13 @@ h3 {
 .btn--lg {
   padding: 17px 28px;
   font-size: 17px;
+}
+@media (max-width: 400px) {
+  /* En celulares angostos (360px) el botón principal entra en una sola línea */
+  .btn--lg {
+    padding: 16px 20px;
+    font-size: 16px;
+  }
 }
 .btn--sm {
   padding: 10px 18px;
