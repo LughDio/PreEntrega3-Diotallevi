@@ -420,6 +420,21 @@ h3 {
   font-weight: 700;
   color: #fff;
 }
+.hero__zone {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: 34em;
+  margin: 10px 0 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.hero__zone .ico {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  color: #7ae3f7;
+}
 .wave {
   position: absolute;
   left: 0;
