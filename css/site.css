@@ -983,6 +983,11 @@ h2 {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer .footer__aviso {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+}
 
 /* ---------- Botón flotante de WhatsApp ---------- */
 .wa-float {

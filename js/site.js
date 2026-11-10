@@ -115,6 +115,23 @@
     }
   }
 
+  /* Píxel de Meta: cuenta las consultas por WhatsApp y los formularios enviados */
+  function track(ev) {
+    if (typeof window.fbq === "function") window.fbq("track", ev);
+  }
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="https://wa.me/"]');
+    if (a) track("Contact");
+  });
+  if (new URLSearchParams(location.search).get("enviado") === "true") {
+    var seen = false;
+    try {
+      seen = sessionStorage.getItem("psj-lead") === "1";
+      sessionStorage.setItem("psj-lead", "1");
+    } catch (err) {}
+    if (!seen) track("Lead");
+  }
+
   /* Año del pie de página */
   var year = document.getElementById("anio");
   if (year) year.textContent = new Date().getFullYear();
