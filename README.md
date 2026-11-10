@@ -62,13 +62,14 @@ Para repetir la medición: `npx serve@14 -l 8080` y, en otra terminal, `npx ligh
 - **Accesibilidad.** Enlace «Saltar al contenido», estructura semántica, foco visible, textos alternativos, galería con `<dialog>` que se maneja con teclado y `Esc`, y animaciones que respetan `prefers-reduced-motion`.
 - **Mejora progresiva.** Sin JavaScript la página se lee completa y se puede contactar igual (WhatsApp, teléfono y formulario); el script solo agrega el menú del celular, las animaciones de entrada, la galería ampliada, el video de YouTube y el aviso del formulario.
 - **Video sin costo de carga.** El video propio usa `preload="none"` con póster y el de YouTube es una «fachada»: el reproductor (`youtube-nocookie`) se inserta recién cuando alguien toca.
+- **Medición para los anuncios.** El píxel de Meta (conjunto de datos «Piscinas San José», ID `834228099598568`) registra las visitas (`PageView`), los toques a WhatsApp (`Contact`) y los formularios enviados (`Lead`). La web lo avisa en el pie de página y, si el script de Meta no carga, la página funciona igual.
 
 ## Estructura
 
 ```
 index.html          Toda la página
 css/site.css        Estilos
-js/site.js          Menú, galería, video y formulario
+js/site.js          Menú, galería, video, formulario y eventos del píxel
 img/  fonts/  vid/  Imágenes, tipografía y video
 _redirects          Redirecciones desde las URLs viejas
 sitemap.xml         Mapa del sitio para buscadores
