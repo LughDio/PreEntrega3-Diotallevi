@@ -920,7 +920,8 @@ h2 {
 
 /* ---------- Footer ---------- */
 .footer {
-  padding: 44px 0 28px;
+  /* Espacio abajo para que el botón flotante de WhatsApp no tape el último renglón */
+  padding: 44px 0 calc(76px + env(safe-area-inset-bottom, 0px));
   background: #071f32;
   color: rgba(255, 255, 255, 0.8);
 }
